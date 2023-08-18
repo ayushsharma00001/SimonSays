@@ -1,0 +1,21 @@
+@media screen and (max-width:529px){
+    .btn{
+        width: 150px;
+        height: 150px;
+        margin: 8px;
+        margin-top: 29px;
+
+    }
+}
+
+
+
+@media screen and (max-width:340px){
+    .btn{
+        height: 130px;
+        width: 130px;
+    }
+    .outer{
+        margin-top: 29px;
+    }
+}
