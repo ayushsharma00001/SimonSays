@@ -29,8 +29,8 @@ function flash(btn){
     btn.classList.add("flash");
     setTimeout(function(){
         btn.classList.remove("flash")
-    },200);
-    // console.log(gamSeq);
+    },400);
+    console.log(gamSeq);
 
 }
 
@@ -62,9 +62,6 @@ function getAns(idx){
            setTimeout(function(){
             levelup();
            },500);
-        }
-        else{
-            flash();
         }
     }
     else{
